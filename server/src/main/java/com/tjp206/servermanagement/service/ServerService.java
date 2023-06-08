@@ -2,6 +2,7 @@ package com.tjp206.servermanagement.service;
 
 import com.tjp206.servermanagement.model.Server;
 
+import java.io.IOException;
 import java.util.Collection;
 
 public interface ServerService {
@@ -10,7 +11,7 @@ public interface ServerService {
     /*
     Find server by IP Address and return that server
      */
-    Server pingServer(String ipAddress);
+    Server pingServer(String ipAddress) throws IOException;
 
     /*
     * Limit searches to a specific number:
