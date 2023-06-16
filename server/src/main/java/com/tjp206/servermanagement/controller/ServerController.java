@@ -1,8 +1,8 @@
-package com.tjp206.servermanagement.controller;
+package main.java.com.tjp206.servermanagement.controller;
 
-import com.tjp206.servermanagement.model.Response;
-import com.tjp206.servermanagement.model.Server;
-import com.tjp206.servermanagement.service.ServerServiceImpl;
+import main.java.com.tjp206.servermanagement.model.Response;
+import main.java.com.tjp206.servermanagement.model.Server;
+import main.java.com.tjp206.servermanagement.service.ServerServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 import java.util.Map;
 
-import static com.tjp206.servermanagement.enumeration.Status.SERVER_UP;
+import static main.java.com.tjp206.servermanagement.enumeration.Status.SERVER_UP;
 import static java.time.LocalDateTime.now;
 
 @RestController
@@ -52,5 +52,4 @@ public class ServerController {
                         .build()
         );
     }
-
 }

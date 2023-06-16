@@ -1,4 +1,4 @@
-package com.tjp206.servermanagement.service;
+package main.java.com.tjp206.servermanagement.service;
 
 import com.tjp206.servermanagement.model.Server;
 import com.tjp206.servermanagement.repository.ServerRepository;

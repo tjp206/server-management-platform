@@ -1,4 +1,4 @@
-package com.tjp206.servermanagement.enumeration;
+package main.java.com.tjp206.servermanagement.enumeration;
 
 public enum Status {
     SERVER_UP("SERVER_UP"),

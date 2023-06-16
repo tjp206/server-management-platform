@@ -1,4 +1,4 @@
-package com.tjp206.servermanagement.model;
+package main.java.com.tjp206.servermanagement.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.tjp206.servermanagement.model;
+package main.java.com.tjp206.servermanagement.model;
 
-import com.tjp206.servermanagement.enumeration.Status;
+import main.java.com.tjp206.servermanagement.enumeration.Status;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
